@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(231, 128, 9, 0.705);
+    color: rgba(3, 79, 82, 0.801);
+}
+
+.tryout {
+    font-style: italic;
+    color: rgb(255, 0, 0);
+}
+
+.tout {
+    font-size: small;
+    font-weight: bolder;
+    color: #000;
+}
+
+#emew {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+[title] {
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blue;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: underline;
+    color: black;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: aqua;
+}
+
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active {
+    background-color: rgb(24, 57, 58);
+}

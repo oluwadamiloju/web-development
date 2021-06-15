@@ -1,0 +1,27 @@
+header {
+    background-color: rgba(58, 17, 112);
+    color: #fff;
+    padding: 1em;
+    justify-content: left;
+}
+
+nav {
+    background-color: rgb(188, 179, 199);
+    width: 14em;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    color: rgba(58, 17, 112);
+}
+
+#main {
+    background-color: rgb(240, 240, 240);
+    margin-left: 15em;
+    margin-top: -1.2em;
+}
+
+footer {
+    background-color: cornsilk;
+}

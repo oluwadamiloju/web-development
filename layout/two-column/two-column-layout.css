@@ -21,6 +21,10 @@ ul {
     margin-left: 15em;
     margin-top: -1.2em;
 }
+ /* trying the filter keyword */
+img {
+    filter: blur(2px);
+}
 
 footer {
     background-color: cornsilk;

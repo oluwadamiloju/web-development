@@ -23,7 +23,7 @@ ul {
 }
  /* trying the filter keyword */
 img {
-    filter: blur(2px);
+    filter: blur(1px) hue-rotate(90deg) saturate(1);
 }
 
 footer {

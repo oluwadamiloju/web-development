@@ -1,0 +1,31 @@
+.first-container {
+    background-color: rgb(30, 41, 9);
+    color: white;
+}
+
+.second-container {
+    background-color: rgb(59, 78, 20);
+    color: white;
+}
+
+.third-container {
+    background-color: olivedrab;
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+}

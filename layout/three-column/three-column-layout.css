@@ -20,6 +20,13 @@ ul {
     background-color: rgb(240, 240, 240);
     margin-left: 15em;
     margin-top: -1.2em;
+    margin-right: 22em;
+}
+
+aside {
+    background-color: rgb(189, 132, 80);
+    margin-left: 15em;
+    float: right;
 }
 
 footer {

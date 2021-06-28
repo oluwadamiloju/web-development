@@ -12,6 +12,9 @@
         if the user enters a negative number, the loop ends <br>
         do not add the negative number to the sum
     </p>
+    <p>
+        while loop
+    </p>
     <script>
         var sum = 0;
         var userInput;
@@ -25,19 +28,21 @@
         }
         document.write(sum);
     </script>
+    <p>
+        do while loop
+    </p>
+    <script>
+        var sum = 0;
+        var userInput = 0;
 
-<script>
-    var sum = 0;
-    var userInput = 0;
-
-    do {
-        userInput = prompt('Enter a positive number');
-        if(userInput < 0) {
-            break;
-        }
-        sum += parseInt(userInput);  
-    } while(userInput > 0);
-    document.write(sum);
-</script>
+        do {
+            userInput = prompt('Enter a positive number');
+            if(userInput < 0) {
+                break;
+            }
+            sum += parseInt(userInput);  
+        } while(userInput > 0);
+        document.write(sum);
+    </script>
 </body>
 </html>

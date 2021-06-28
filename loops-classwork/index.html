@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <p>
+        using while loop and do-while loop, write a program to find the sum of positive numbers. <br>
+        if the user enters a negative number, the loop ends <br>
+        do not add the negative number to the sum
+    </p>
+    <script>
+        var sum = 0;
+        var userInput;
+
+        while(!(userInput < 0)) {
+            userInput = prompt('Enter a positive number');
+            if(userInput < 0) {
+                break;
+            }
+            sum += parseInt(userInput);  
+        }
+        document.write(sum);
+    </script>
+
+<script>
+    var sum = 0;
+    var userInput = 0;
+
+    do {
+        userInput = prompt('Enter a positive number');
+        if(userInput < 0) {
+            break;
+        }
+        sum += parseInt(userInput);  
+    } while(userInput > 0);
+    document.write(sum);
+</script>
+</body>
+</html>

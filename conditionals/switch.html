@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch conditional</title>
+</head>
+<body>
+    <script>
+        var artType = prompt("Enter the initials of the art type");
+        var output;
+
+        switch(artType) {
+            case "PT":
+                output = "Painting";
+                document.write(output);
+                break;
+            case "SC":
+                output = "Sculpture";
+                document.write(output);
+                break;
+            default:
+                output = "Other";
+                document.write(output);
+        }
+    </script>
+</body>
+</html>

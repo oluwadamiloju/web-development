@@ -1,4 +1,4 @@
-// Write a function toArray that takes 5 values and returns these values in an array.
+// 4. Write a function toArray that takes 5 values and returns these values in an array.
 
 let firstValue = prompt("Enter a value to put in an array: ");
 let secondValue = prompt("Enter a value to put in an array: ");

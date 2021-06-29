@@ -18,19 +18,19 @@ console.log(countries.pop());
 console.log(countries.unshift("Ghana"));
 console.log(countries.shift());
 
-let countryAndYears = countries.concat(years);
+let countryAndYears = countries.concat(years); //concat method joins two arrays
 document.write('<br>');
 document.write('<br>');
 document.write(countryAndYears);
 
 document.write('<br>');
 document.write('<br>');
-document.write(countryAndYears.join(" & "));
+document.write(countryAndYears.join(" & ")); //join method converts the array to a string and seperates them by comma, the default separator if one is not specified
 
 document.write('<br>');
 document.write('<br>');
-document.write(countryAndYears.reverse());
+document.write(countryAndYears.reverse()); //reverse method reverses the elements of an array
 
 document.write('<br>');
 document.write('<br>');
-document.write(countries.sort());
+document.write(countries.sort()); //sort method sorts the arrays in ascending alphabetical order or in numerical order. the numerical order may cause problems some times...look up compare method

@@ -18,3 +18,19 @@ console.log(countries.pop());
 console.log(countries.unshift("Ghana"));
 console.log(countries.shift());
 
+let countryAndYears = countries.concat(years);
+document.write('<br>');
+document.write('<br>');
+document.write(countryAndYears);
+
+document.write('<br>');
+document.write('<br>');
+document.write(countryAndYears.join(" & "));
+
+document.write('<br>');
+document.write('<br>');
+document.write(countryAndYears.reverse());
+
+document.write('<br>');
+document.write('<br>');
+document.write(countries.sort());

@@ -5,7 +5,7 @@ let sum = 0;
 let product = 0;
 
 function sumOfArrayElements(integerArray) {
-    for(i = 0; i < integerArray.length(); i++) {
+    for(i = 0; i < integerArray.length; i++) {
         sum += integerArray[i];
     }
     return sum;
@@ -14,7 +14,7 @@ function sumOfArrayElements(integerArray) {
 document.write(sumOfArrayElements(integerArray));
 
 function productOfArrayElements(integerArray) {
-    for(i = 0; i < integerArray.length(); i++) {
+    for(i = 0; i < integerArray.length; i++) {
         product *= integerArray[i];
     }
     return product;

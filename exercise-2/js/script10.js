@@ -1,24 +1,24 @@
 // 10. Write a JavaScript program to compute the sum and product of an array of integers.
 
 let integerArray = [1, 2, 3, 4, 5];
-let sum = 0;
-let product = 0;
+let sumOfAllArrayElements = 0;
+let productOfAllArrayElements = 1;
 
 function sumOfArrayElements(integerArray) {
     for(i = 0; i < integerArray.length; i++) {
-        sum += integerArray[i];
+        sumOfAllArrayElements += integerArray[i];
     }
-    return sum;
+    return sumOfAllArrayElements;
 }
 
-document.write(sumOfArrayElements(integerArray));
+document.write("The sum of the array elements is " + sumOfArrayElements(integerArray));
 
 function productOfArrayElements(integerArray) {
     for(i = 0; i < integerArray.length; i++) {
-        product *= integerArray[i];
+        productOfAllArrayElements *= integerArray[i];
     }
-    return product;
+    return productOfAllArrayElements;
 }
 
 document.write('<br>');
-document.write(productOfArrayElements(integerArray));
+document.write("The product of the array elements is " + productOfArrayElements(integerArray));
